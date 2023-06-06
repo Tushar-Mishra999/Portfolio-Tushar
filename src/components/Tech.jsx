@@ -8,8 +8,8 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 const Tech = () => {
   return (
-    <>
-    <motion.div variants={textVariant()}>
+    <div className="h-screen">
+    <motion.div variants={textVariant()} >
         <h2 className={`${styles.sectionHeadText} flex justify-center`}>Skills</h2>
       </motion.div>
     <div className='flex flex-row flex-wrap justify-center gap-10 mt-20'>
@@ -19,8 +19,8 @@ const Tech = () => {
         </div>
       ))}
     </div>
-    </>
+    </div>
   );
 };
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "skills");

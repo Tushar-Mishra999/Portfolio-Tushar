@@ -1,13 +1,16 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-// import { fadeIn, textVariant } from "../utils/motion";
+import coderImage from '../assets/coder2.jpg';
+import TypeWriterEffect from 'react-typewriter-effect';
+//import { fadeIn, textVariant } from "../utils/motion";
 const textVariant =()=> {
   return {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.4 } }
 }
 };
+const texts = ['Text 1', 'Text 2', 'Text 3'];
 
 const Hero = () => {
   return (
@@ -25,13 +28,37 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white mt-24`}>
             Hi, I'm <span className='text-[#915EFF]'>Tushar</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
-        </div>
-      </div>
+         
+           <p className={`${styles.heroSubText} mt-2 text-white-100 flex`}>
+  I am a{' '}
+  <span className="ml-2">
+  <TypeWriterEffect
+    startDelay={200}
+    cursorColor="#3F3D56"
+    multiText={[
+      'full-stack developer',
+      'competitive programmer',
+    ]}
+    multiTextDelay={1000}
+    typeSpeed={70}
+    multiTextLoop
+  />
+  </span>
+</p>
 
+
+     
+    
+        </div>
+        <div className="w-1/3 ml-20 ">
+            <img
+              src={coderImage}
+              alt="Your image"
+              className="w-full h-full rounded-full overflow-hidden"
+            />
+          </div>
+      </div>
+      
         </motion.div>
       {/* <ComputersCanvas /> */}
 
