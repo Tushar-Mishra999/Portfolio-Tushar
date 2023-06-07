@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { experiences,education } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
@@ -57,21 +57,46 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
+
+  const [activeTab, setActiveTab] = useState('work');
+  const [cards, setCards] = useState(experiences);
+
+
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
+    if (tab === 'work') {
+      setCards(experiences)
+    }
+    else {
+      setCards(education)
+    }
+  };
+
   return (
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          What I have done so far
+          My personal journey
         </p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>
-          Work Experience.
+        <h2 className={`text-white font-black md:text-[40px] sm:text-[50px] xs:text-[40px] text-[30px] text-center flex justify-around `}>
+          <span
+            className={`${activeTab === 'work' ? 'text-white' : 'text-gray-500'
+              } cursor-pointer`}
+            onClick={() => handleTabClick('work')}
+          >Work</span>
+
+          <span
+            className={`${activeTab === 'education' ? 'text-white' : 'text-gray-500'
+              } cursor-pointer`}
+            onClick={() => handleTabClick('education')}
+          >Education</span>
         </h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
+          {cards.map((experience, index) => (
+             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
             />
