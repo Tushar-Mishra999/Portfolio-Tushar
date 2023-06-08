@@ -6,7 +6,6 @@ import {
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
-
 import { styles } from "../styles";
 import { experiences,education } from "../constants";
 import { SectionWrapper } from "../hoc";
