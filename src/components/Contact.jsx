@@ -6,8 +6,10 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import linkedinImg from '../assets/contact/linkedin.svg';
-import githubImg from '../assets/contact/github.svg';
+import linkedinImg from '../assets/contact/linkedin.png';
+import githubImg from '../assets/contact/github.png';
+import leetcodeImg from '../assets/contact/leetcode.png';
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -67,7 +69,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -79,7 +81,7 @@ const Contact = () => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
+          className='mt-8 flex flex-col gap-8'
         >
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
@@ -106,7 +108,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-              rows={7}
+              rows={2}
               name='message'
               value={form.message}
               onChange={handleChange}
@@ -124,21 +126,20 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
 
-          <button
-  type='button'
-  //className='bg-tertiary p-2 rounded-full outline-none w-fit text-white font-bold shadow-md shadow-primary'
-  onClick={() => window.location.href = "https://example.com/facebook"}
->
-  <img src={linkedinImg} className='w-10 h-10 rounded-full bg-white'  />
-</button>
-<button type='button' onClick={() => window.location.href = "https://example.com/facebook"}
-//className='bg-tertiary p-2 rounded-full outline-none w-fit text-white font-bold shadow-md shadow-primary'
->
-  
+        <button type='button' onClick={() => window.location.href = "https://leetcode.com/TusharMishra1612/"}>
+          <img src={leetcodeImg} className='w-14 h-14 rounded-full '  />
+        </button>
+        
+        <button type='button' onClick={() => window.location.href = "https://github.com/Tushar-Mishra999"}>
+          <img src={githubImg} className='w-14 h-14 rounded-full'  />
+        </button>
 
-  <img src={githubImg} className='w-10 h-10 rounded-full bg-white '  />
-  
-</button>
+
+        <button type='button' onClick={() => window.location.href = "https://www.linkedin.com/in/tushar-mishra-37b917203/"}>
+          <img src={linkedinImg} className='w-14 h-14 rounded-full '  />  
+        </button>
+
+        
 
           </div>
 

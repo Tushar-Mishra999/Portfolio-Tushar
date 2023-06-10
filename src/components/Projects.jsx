@@ -26,7 +26,8 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full shadow-card'
       >
-        <div className='relative w-full h-[230px]'>
+        
+        {/* <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
@@ -45,13 +46,14 @@ const ProjectCard = ({
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className='mt-5'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
+        <div className='flex justify-between mt-5'>
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
@@ -61,6 +63,17 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+        </div>
+        <div
+              onClick={() => window.open(source_code_link, "_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+            >
+              <img
+                src={github}
+                alt='source code'
+                className='w-1/2 h-1/2 object-contain'
+              />
+            </div>
         </div>
       </Tilt>
     </motion.div>
@@ -88,7 +101,7 @@ const Works = () => {
         </motion.p>
       </div> */}
 
-      <div className='mt-20 flex items-center flex-wrap gap-5'>
+      <div className='mt-20 flex justify-center flex-wrap gap-5'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

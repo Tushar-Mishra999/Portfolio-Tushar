@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import desktopImg from "../assets/desktop.svg";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -42,7 +43,8 @@ const handleContactClick = () => {
 
 const About = () => {
   return (
-    <div className="h-screen flex flex-col justify-center ">
+    <div className="h-screen flex flex-row ">
+    <div className=" flex flex-col justify-center ">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>About Me</h2>
@@ -76,6 +78,14 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div> */}
+    </div>
+    <div className="w-1/3 ml-20 ">
+            <img
+              src={desktopImg}
+              alt="Your image"
+              className="w-full h-full  overflow-hidden"
+            />
+          </div>
     </div>
   );
 };

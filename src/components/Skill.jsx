@@ -38,10 +38,10 @@ const Tech = () => {
     // </div>
     // </div>
 
-    <div className="h-screen ">
-      <h2 className='font-bold text-8xl mt-64 w-full text-center'>Skills</h2>
+    <div className="h-[70vh]">
+      <h2 className=' font-bold text-8xl mt-64 w-full text-center'>Skills</h2>
 
-<div className='w-full h-screen relative flex justify-center rounded-full bg-circularLight'>
+<div className='w-full relative flex justify-center rounded-full bg-circularLight'>
 
 {/* <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer'
 
