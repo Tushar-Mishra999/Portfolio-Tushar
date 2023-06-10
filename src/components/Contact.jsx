@@ -6,7 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+import linkedinImg from '../assets/contact/linkedin.svg';
+import githubImg from '../assets/contact/github.svg';
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -114,12 +115,35 @@ const Contact = () => {
             />
           </label>
 
+          <div className="flex gap-5">
+
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>
+
+          <button
+  type='button'
+  //className='bg-tertiary p-2 rounded-full outline-none w-fit text-white font-bold shadow-md shadow-primary'
+  onClick={() => window.location.href = "https://example.com/facebook"}
+>
+  <img src={linkedinImg} className='w-10 h-10 rounded-full bg-white'  />
+</button>
+<button type='button' onClick={() => window.location.href = "https://example.com/facebook"}
+//className='bg-tertiary p-2 rounded-full outline-none w-fit text-white font-bold shadow-md shadow-primary'
+>
+  
+
+  <img src={githubImg} className='w-10 h-10 rounded-full bg-white '  />
+  
+</button>
+
+          </div>
+
+          
+
         </form>
       </motion.div>
 

@@ -38,22 +38,23 @@ const Tech = () => {
     // </div>
     // </div>
 
-    <div className="h-screen">
+    <div className="h-screen ">
       <h2 className='font-bold text-8xl mt-64 w-full text-center'>Skills</h2>
 
-<div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight'>
+<div className='w-full h-screen relative flex justify-center rounded-full bg-circularLight'>
 
-<motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer'
+{/* <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer'
 
 whileHover={{scale:1.05}}>
   <div className="rounded-full font-semibold py-3 px-6 shadow-dark cursor-pointer absolute text-light border border-[#915EFF]">
     Flutter
   </div>
-</motion.div>
+</motion.div> */}
 
+<Skill name="Flutter" x="0vw" y="-20vw"/> 
 <Skill name="React.js" x="-20vw" y="2vw"/>
 
-<Skill name="Tailwind CSS" x="-5vw" y="-10vw"/>
+<Skill name="Tailwind CSS" x="-30vw" y="-10vw"/>
 
 <Skill name="Javascript" x="20vw" y="6vw" />
 
