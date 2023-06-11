@@ -18,11 +18,14 @@ import {
   meta,
   starbucks,
   tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  apeejay,
+  snu,
+  irdeto,
+  redcarpet,
 } from "../assets";
 
 export const navLinks = [
@@ -125,267 +128,184 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer Intern",
+    company_name: "Irdeto",
+    icon: irdeto,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+     "Currently working on the migration process of RDK's EPG service by creating an efficient AWS pipeline and ensuring seamless data service migration.",
+      "Actively collaborating with the Android CI/CD team, contributing to the development and optimization of the continuous integration and delivery process for Android applications."
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Flutter Developer Intern",
+    company_name: "Red Carpet",
+    icon: redcarpet,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to the development of the frontend of the Red Carpet App using Flutter, ensuring an intuitive user experience.",
+"Collaborated with the team to update dependencies, refactor code, and enhance performance for the iOS version of the app.",
+"Implemented multilingual support to cater to a diverse user base, allowing seamless interaction with the Red Carpet App in different languages.",
+"Diligently addressed and fixed critical UI bugs that impacted a significant user base of over 1,000,000, ensuring a smooth and flawless experience for all."
     ],
   },
 ];
 
 const education = [
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Shiv Nadar University",
+    company_name: "Greater Noida, Uttar Pradesh",
+    icon: snu,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Aug 2020 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently pursuing Bachelor of Technology in Computer Science and Engineering.",
+      "CGPA: 8.5/10.0 SGPA: 9.29/10.0",
+      "Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Cloud Computing, Information Retrieval, Economics",
+
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Apeejay School",
+    company_name: "Noida, Uttar Pradesh",
+    icon: apeejay,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Apr 2008 - March 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      //12th CBSE BOARDS-95.2%, 10th CBSE BOARDS-96% 
+      "Completed 12th grade with 95.2% in the CBSE Board Examinations.",
+      "Completed 10th grade with 96% in the CBSE Board Examinations.",
+      "Relevant Coursework: Physics, Chemistry, Mathematics.",
     ],
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "DeliBuddy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created delivery service app/website for college students. Grew to 350+ users, handled 140+ deliveries, and gained insights into user behavior and preferences.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "React",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Tushar-Mishra999/DeliBuddy",
   },
   {
-    name: "Job IT",
+    name: "StockPulse",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a web app that predicts future share performance by crawling and scraping news articles based on user-entered favorite company.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "React",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "BeautifulSoup",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/dgdevanshi/StockPulse",
   },
   {
-    name: "Trip Guide",
+    name: "Open Source",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Published neumorphic design package on pub.dev with a reusable button for Flutter apps, scored 130/140 pub points, and gained 82% popularity.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Dart",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+     
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://pub.dev/packages/neumorphic_button",
   },
-  { name: "Car Rent",
+  { name: "MediBuddy",
   description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Developed a mobile app for checking local medicine availability. Features include search, chat with sellers, and geolocation for shop navigation using Google Maps API.",
   tags: [
     {
-      name: "react",
+      name: "Flutter",
       color: "blue-text-gradient",
     },
     {
-      name: "mongodb",
+      name: "Node.js",
       color: "green-text-gradient",
     },
     {
-      name: "tailwind",
+      name: "MongoDB",
       color: "pink-text-gradient",
     },
   ],
   image: carrent,
-  source_code_link: "https://github.com/",
+  source_code_link: "https://github.com/Tushar-Mishra999/MediBuddy",
 },
 {
-  name: "Job IT",
+  name: "VisageR",
   description:
-    "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Developed an app enabling students to mark attendance through a 3-step process. They click and upload selfies, which are processed using a Face Recognition system.",
   tags: [
     {
-      name: "react",
+      name: "AWS Rekognition, AuroraDB, Lambda",
       color: "blue-text-gradient",
     },
     {
-      name: "restapi",
+      name: "Flutter",
       color: "green-text-gradient",
     },
-    {
-      name: "scss",
-      color: "pink-text-gradient",
-    },
+    // {
+    //   name: "Flutter",
+    //   color: "pink-text-gradient",
+    // },
   ],
   image: jobit,
-  source_code_link: "https://github.com/",
+  source_code_link: "https://github.com/Tushar-Mishra999/VisageR",
 },
 {
-  name: "Trip Guide",
+  name: "Pick Your Lead",
   description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "Developed an app for simulating student council elections. Students can participate as candidates and voters, contesting for positions and casting votes for candidates.",
   tags: [
     {
-      name: "nextjs",
+      name: "Java",
       color: "blue-text-gradient",
     },
     {
-      name: "supabase",
+      name: "Firebase",
       color: "green-text-gradient",
     },
     {
-      name: "css",
+      name: "XML",
       color: "pink-text-gradient",
     },
   ],
   image: tripguide,
-  source_code_link: "https://github.com/",
+  source_code_link: "https://github.com/Tushar-Mishra999/PickYourLead",
 },
 ];
 
-export { services, technologies, experiences,education, testimonials, projects };
+export { services, technologies, experiences,education, projects };

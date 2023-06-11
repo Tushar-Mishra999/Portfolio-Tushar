@@ -25,10 +25,13 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import apeejay from "./experience/apeejay.webp";
+import snu from "./experience/snu.jpeg";
+import irdeto from "./experience/irdeto.png";
+import redcarpet from "./experience/redcarpet.svg";
 
 export {
   logo,
@@ -54,7 +57,10 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+  apeejay,
+  snu,
+  irdeto,
+  redcarpet,
   starbucks,
   tesla,
   carrent,
