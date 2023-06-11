@@ -131,7 +131,7 @@ const experiences = [
     title: "Software Developer Intern",
     company_name: "Irdeto",
     icon: irdeto,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "May 2023 - Present",
     points: [
      "Currently working on the migration process of RDK's EPG service by creating an efficient AWS pipeline and ensuring seamless data service migration.",
@@ -142,7 +142,7 @@ const experiences = [
     title: "Flutter Developer Intern",
     company_name: "Red Carpet",
     icon: redcarpet,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "Jun 2022 - July 2022",
     points: [
       "Contributed to the development of the frontend of the Red Carpet App using Flutter, ensuring an intuitive user experience.",
@@ -158,7 +158,7 @@ const education = [
     title: "Shiv Nadar University",
     company_name: "Greater Noida, Uttar Pradesh",
     icon: snu,
-    iconBg: "#E6DEDD",
+    iconBg: "#ffffff",
     date: "Aug 2020 - Present",
     points: [
       "Currently pursuing Bachelor of Technology in Computer Science and Engineering.",
@@ -171,7 +171,7 @@ const education = [
     title: "Apeejay School",
     company_name: "Noida, Uttar Pradesh",
     icon: apeejay,
-    iconBg: "#383E56",
+    iconBg: "#ffffff",
     date: "Apr 2008 - March 2020",
     points: [
       //12th CBSE BOARDS-95.2%, 10th CBSE BOARDS-96% 
