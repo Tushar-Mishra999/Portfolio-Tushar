@@ -30,14 +30,14 @@ const About = () => {
 
       <div className='mt-8 flex flex-wrap gap-4'>
         <motion.button
-          whileHover={{ backgroundColor: '#915EFF'  }}
-          className='px-4 py-2 rounded-lg bg-black hover:text-white text-[#915EFF] font-semibold border border-[#915EFF] '
+          whileHover={{ backgroundColor: '#0054FF'  }}
+          className='px-4 py-2 rounded-lg bg-primary hover:text-white text-[#0054FF] font-semibold border border-[#0054FF] '
         >
           Resume
         </motion.button>
       <motion.button
-          whileHover={{ backgroundColor: '#915EFF'  }}
-          className='px-4 py-2 rounded-lg bg-black hover:text-white text-[#915EFF] font-semibold border border-[#915EFF] '
+          whileHover={{ backgroundColor: '#0054FF'  }}
+          className='px-4 py-2 rounded-lg bg-primary hover:text-white text-[#0054FF] font-semibold border border-[#0054FF] '
           onClick={handleContactClick}
         >
           Let's connect
