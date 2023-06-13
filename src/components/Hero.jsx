@@ -46,13 +46,13 @@ const Hero = () => {
 </p>     
     
         </div>
-        <div className="w-1/3 ml-20 ">
+        {/* <div className="w-1/3 ml-20 ">
             <img
               src={coderImage}
               alt="Your image"
               className="w-full h-full rounded-full overflow-hidden"
             />
-          </div>
+          </div> */}
       </div>
       
         </motion.div>
