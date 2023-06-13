@@ -23,7 +23,10 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='mt-5 bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full shadow-card'
+        className='mt-5 bg-primary p-5 rounded-2xl sm:w-[360px] w-full shadow-card'
+        style={{
+          boxShadow: "0px 0px 10px 1px #0054FF",
+        }}
       >
 
         <div className='mt-5'>
