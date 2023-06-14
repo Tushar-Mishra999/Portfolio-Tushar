@@ -27,7 +27,7 @@ const Hero = () => {
             Hi, I'm <span className='text-[#0054FF]'>Tushar</span>
           </h1>
          
-           <p className={`${styles.heroSubText} mt-2 text-white-100 flex`}>
+           <span className={`${styles.heroSubText} mt-2 text-white-100 flex`}>
   I am a{' '}
   <span className="ml-2">
   <TypeWriterEffect
@@ -43,7 +43,7 @@ const Hero = () => {
     multiTextLoop
   />
   </span>
-</p>     
+</span>     
     
         </div>
         {/* <div className="w-1/3 ml-20 ">
