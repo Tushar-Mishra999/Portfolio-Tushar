@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import TypeWriterEffect from 'react-typewriter-effect';
+// import TypeWriterEffect from 'react-typewriter-effect';
 
 const textVariant =()=> {
   return {
@@ -27,22 +27,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#0054FF]'>Tushar</span>
           </h1>
          
-           <span className={`${styles.heroSubText} mt-2 text-white-100 flex`}>
-  I am a{' '}
-  <span className="ml-2">
-  <TypeWriterEffect
-    startDelay={200}
-    cursorColor="#3F3D56"
-    multiText={[
-      'MERN stack developer',
-      'Flutter developer',
-      'competitive programmer',
-    ]}
-    multiTextDelay={1000}
-    typeSpeed={70}
-    multiTextLoop
-  />
-  </span>
+           <span className={`text-opacity-30 font-black md:text-[30px] sm:text-[50px] xs:text-[40px] text-[30px] mt-2 text-[#808080] flex `}>
+           Crafting digital experiences driven by futuristic innovation.
 </span>     
     
         </div>
