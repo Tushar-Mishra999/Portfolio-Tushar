@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -9,6 +8,7 @@ import { slideIn } from "../utils/motion";
 import linkedinImg from '../assets/contact/linkedin.png';
 import githubImg from '../assets/contact/github.png';
 import leetcodeImg from '../assets/contact/leetcode.png';
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -36,16 +36,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_dadu49p',
+        'template_u11y0p8',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Tushar Mishra",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "tusharmishra16@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'FMMYVn6T7edJBuHeO'
       )
       .then(
         () => {

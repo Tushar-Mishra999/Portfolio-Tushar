@@ -1,27 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   apeejay,
   snu,
   irdeto,
@@ -52,79 +29,9 @@ export const navLinks = [
   
 ];
 
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
+
+
 
 const experiences = [
   {
@@ -202,7 +109,6 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
     source_code_link: "https://github.com/Tushar-Mishra999/DeliBuddy",
   },
   {
@@ -223,7 +129,6 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
     source_code_link: "https://github.com/dgdevanshi/StockPulse",
   },
   {
@@ -241,7 +146,6 @@ const projects = [
       },
      
     ],
-    image: tripguide,
     source_code_link: "https://pub.dev/packages/neumorphic_button",
   },
   { name: "MediBuddy",
@@ -261,7 +165,6 @@ const projects = [
       color: "pink-text-gradient",
     },
   ],
-  image: carrent,
   source_code_link: "https://github.com/Tushar-Mishra999/MediBuddy",
 },
 {
@@ -277,12 +180,7 @@ const projects = [
       name: "Flutter",
       color: "green-text-gradient",
     },
-    // {
-    //   name: "Flutter",
-    //   color: "pink-text-gradient",
-    // },
   ],
-  image: jobit,
   source_code_link: "https://github.com/Tushar-Mishra999/VisageR",
 },
 {
@@ -303,9 +201,8 @@ const projects = [
       color: "pink-text-gradient",
     },
   ],
-  image: tripguide,
   source_code_link: "https://github.com/Tushar-Mishra999/PickYourLead",
 },
 ];
 
-export { services, technologies, experiences,education, projects };
+export { experiences,education, projects };

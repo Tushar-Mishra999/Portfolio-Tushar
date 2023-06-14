@@ -1,5 +1,4 @@
 import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -32,6 +31,10 @@ const About = () => {
         <motion.button
           whileHover={{ backgroundColor: '#0054FF'  }}
           className='px-4 py-2 rounded-lg bg-primary hover:text-white text-[#0054FF] font-semibold border border-[#0054FF] '
+          onClick={() => {
+            const driveLink = 'https://drive.google.com/file/d/1RgXVgn6dNHQMRLjaSr4eBIgRSjtJjkHC/view';
+    window.open(driveLink, '_blank');
+          }}
         >
           Resume
         </motion.button>

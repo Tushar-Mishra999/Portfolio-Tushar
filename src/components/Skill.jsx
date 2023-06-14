@@ -1,11 +1,6 @@
 import React from "react";
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
 import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "../utils/motion";
-import { styles } from "../styles";
-
 
 
 const Skill = ({name, x, y}) => {
@@ -25,31 +20,11 @@ viewports={{once: true}}
 
 const Tech = () => {
   return (
-    // <div className="h-screen flex flex-col justify-center">
-    // <motion.div variants={textVariant()} >
-    //     <h2 className={`${styles.sectionHeadText} flex justify-center`}>Skills</h2>
-    //   </motion.div>
-    // <div className='flex flex-row flex-wrap justify-center gap-10 mt-20'>
-    //   {technologies.map((technology) => (
-    //     <div className='w-28 h-28' key={technology.name}>
-    //       <BallCanvas icon={technology.icon} />
-    //     </div>
-    //   ))}
-    // </div>
-    // </div>
 
     <div className="h-[70vh]">
       <h2 className=' font-bold text-8xl mt-64 w-full text-center'>Skills</h2>
 
 <div className='w-full relative flex justify-center rounded-full bg-circularLight'>
-
-{/* <motion.div className='flex items-center justify-center rounded-full font-semibold bg-dark text-light p-8 shadow-dark cursor-pointer'
-
-whileHover={{scale:1.05}}>
-  <div className="rounded-full font-semibold py-3 px-6 shadow-dark cursor-pointer absolute text-light border border-[#915EFF]">
-    Flutter
-  </div>
-</motion.div> */}
 
 <Skill name="Flutter" x="0vw" y="-20vw"/> 
 <Skill name="React.js" x="-20vw" y="2vw"/>

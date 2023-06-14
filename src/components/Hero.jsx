@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import coderImage from '../assets/coder2.jpg';
 import TypeWriterEffect from 'react-typewriter-effect';
 
 const textVariant =()=> {
@@ -35,7 +34,8 @@ const Hero = () => {
     startDelay={200}
     cursorColor="#3F3D56"
     multiText={[
-      'full-stack developer',
+      'MERN stack developer',
+      'Flutter developer',
       'competitive programmer',
     ]}
     multiTextDelay={1000}
