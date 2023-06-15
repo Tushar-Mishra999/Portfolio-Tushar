@@ -20,14 +20,14 @@ const Hero = () => {
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#0054FF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-1 h-80 violet-gradient' />
         </div>
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white mt-24`}>
+        <div className='text-left'>
+          <h1 className={`text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[40px] mt-24`}>
             Hi, I'm <span className='text-[#0054FF]'>Tushar</span>
           </h1>
          
-           <span className={`text-opacity-30 font-black md:text-[30px] sm:text-[50px] xs:text-[40px] text-[30px] mt-2 text-[#808080] flex `}>
+           <span className={`text-opacity-30 font-black md:text-[30px] sm:text-[50px] xs:text-[40px] text-[15px] mt-2 text-[#a4a4a4] flex `}>
            Crafting digital experiences driven by futuristic innovation.
 </span>     
     
