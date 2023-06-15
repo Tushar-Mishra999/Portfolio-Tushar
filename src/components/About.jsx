@@ -33,8 +33,8 @@ const About = () => {
           whileHover={{ backgroundColor: '#0054FF'  }}
           className='px-4 py-2 rounded-lg bg-primary hover:text-white text-[#0054FF] font-semibold border border-[#0054FF] '
           onClick={() => {
-            const driveLink = 'https://drive.google.com/file/d/1RgXVgn6dNHQMRLjaSr4eBIgRSjtJjkHC/view';
-    window.open(driveLink, '_blank');
+            const driveLink = 'https://drive.google.com/file/d/1DiiUyQLpm3TlvBKXmYjS6vSa0mYwBO1d/view?usp=sharing';
+            window.open(driveLink, '_blank');
           }}
         >
           Resume
