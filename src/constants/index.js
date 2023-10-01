@@ -39,10 +39,11 @@ const experiences = [
     company_name: "Irdeto",
     icon: irdeto,
     iconBg: "#ffffff",
-    date: "May 2023 - Present",
+    date: "May 2023 - August 2023",
     points: [
-     "Currently working on the migration process of RDK's EPG service by creating an efficient AWS pipeline and ensuring seamless data service migration.",
-      "Actively collaborating with the Android CI/CD team, contributing to the development and optimization of the continuous integration and delivery process for Android applications."
+     "Spearheaded the end-to-end development and deployment of a cutting-edge AWS pipeline for acquiring and processing broadcast Electronic Program Guide (EPG) data for RDK.",
+      "Leveraged AWS cloud services such as S3, DynamoDB, Lambda, and Secrets Manager to achieve seamless data flow and deliver an efficient, scalable, and robust backend solution.",
+      
     ],
   },
   {
