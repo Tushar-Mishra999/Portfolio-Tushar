@@ -36,6 +36,18 @@ export const navLinks = [
 const experiences = [
   {
     title: "Software Developer Intern",
+    company_name: "Mindler",
+    icon: irdeto,
+    iconBg: "#ffffff",
+    date: "Feb 2024 - Present",
+    points: [
+     "Created the frontend, backend and database infrastructure for the admin feature and the frontend of the landing page of UNIVERZE project , utilizing React.js, Node.js, MySQL and Typescript.",
+    "Contributed to the full-stack development for two career counselling platforms, utilizing Node.js for API development alongside AngularJS for frontend implementation.",
+      
+    ],
+  },
+  {
+    title: "Software Developer Intern",
     company_name: "Irdeto",
     icon: irdeto,
     iconBg: "#ffffff",
