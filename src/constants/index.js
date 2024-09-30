@@ -36,7 +36,7 @@ export const navLinks = [
 const experiences = [
   {
     title: "Software Developer Intern",
-    company_name: "Mindlerrrr",
+    company_name: "Mindlerrrrrrr",
     icon: irdeto,
     iconBg: "#ffffff",
     date: "Feb 2024 - Sept 2024",
