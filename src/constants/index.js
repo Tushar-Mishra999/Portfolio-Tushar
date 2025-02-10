@@ -3,6 +3,8 @@ import {
   snu,
   irdeto,
   redcarpet,
+  mindler,
+  airia,
 } from "../assets";
 
 export const navLinks = [
@@ -35,9 +37,21 @@ export const navLinks = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Airia",
+    icon: airia,
+    iconBg: "#ffffff",
+    date: "Oct 2024 - Present",
+    points: [
+    "Developing and maintaing both the frontend and backend of the DrCode tech product, which leverages AI to analyze pull requests, provide in-depth code reviews, and generate intelligent suggestions for commit improvements, aiming to streamline code quality and development workflows for developers.",
+    "Working on external projects for Universe startup, including project management, task allocation, and guiding fellow engineers on development practices.",
+    "Handling social media strategy and managing brand presence to drive visibility and engagement."
+    ],
+  },
+  {
     title: "Software Developer Intern",
     company_name: "Mindler",
-    icon: irdeto,
+    icon: mindler,
     iconBg: "#ffffff",
     date: "Feb 2024 - Sept 2024",
     points: [
