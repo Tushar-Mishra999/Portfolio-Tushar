@@ -92,10 +92,10 @@ const education = [
     company_name: "Greater Noida, Uttar Pradesh",
     icon: snu,
     iconBg: "#ffffff",
-    date: "Aug 2020 - Present",
+    date: "2024",
     points: [
-      "Currently pursuing Bachelor of Technology in Computer Science and Engineering.",
-      "CGPA: 8.5/10.0 SGPA: 9.29/10.0",
+      "Bachelor of Technology, Computer Science and Engineering.",
+      "CGPA: 8.58",
       "Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Cloud Computing, Information Retrieval, Economics",
 
     ],
@@ -108,7 +108,7 @@ const education = [
     date: "Apr 2008 - March 2020",
     points: [
       //12th CBSE BOARDS-95.2%, 10th CBSE BOARDS-96% 
-      "Completed 12th grade with 95.2% in the CBSE Board Examinations.",
+      "Completed 12th grade with 95.4% in the CBSE Board Examinations.",
       "Completed 10th grade with 96% in the CBSE Board Examinations.",
       "Relevant Coursework: Physics, Chemistry, Mathematics.",
     ],

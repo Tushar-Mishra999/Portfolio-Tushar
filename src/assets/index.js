@@ -6,7 +6,7 @@ import apeejay from "./experience/apeejay.webp";
 import snu from "./experience/snu.jpeg";
 import irdeto from "./experience/irdeto.png";
 import redcarpet from "./experience/redcarpet.svg";
-import mindler from "./experience/mindler.jpeg";
+import mindler from "./experience/mindler.png";
 import airia from "./experience/airia.png";
 export {
   logo,
