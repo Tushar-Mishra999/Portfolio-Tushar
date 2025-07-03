@@ -22,7 +22,7 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify sm:text-left"
         >
-          I am Tushar Mishra, a student, a developer and a lifelong learner with an open and inquisitive mind. I love to code and I'm inclined towards full stack development, cloud computing, and open-source development. I am always open to new challenges and opportunities. I am a team player and ready to step in as a leader whenever required.
+          I am Tushar Mishra, currently pursuing my MBA at IIM Ranchi to broaden my horizons across business, strategy, and leadership. With prior experience as a Software Engineer, I’ve developed a strong foundation in technology, product development, and cross-functional collaboration. Now, I’m looking to combine my tech background with business skills to solve real-world problems and add value to organizations.
         </motion.p>
 
         <div className="mt-8 flex flex-wrap gap-4">
