@@ -28,7 +28,7 @@ const Agenda = () => {
 
         <motion.ul
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-right sm:text-left list-disc list-inside"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify md:text-right sm:text-left list-disc list-inside"
       >
         <li>Bug resolution on priority basis, ensuring minimal disruption to user experience.</li>
         <li >User-centric improvements, focusing on enhancing usability and functionality.</li>

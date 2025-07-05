@@ -28,7 +28,7 @@ const Recommendation = () => {
 
         <motion.ul
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-right sm:text-left list-disc list-inside"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify md:text-right sm:text-left list-disc list-inside"
       >
         <li>Increase text visibility over the background video in the hero section to enhance readability and user engagement.</li>
         <li>Make the navigation bar sticky to improve accessibility and user experience while scrolling.</li>

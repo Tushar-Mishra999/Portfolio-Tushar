@@ -30,41 +30,59 @@ const Contact = () => {
     });
   };
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setLoading(true);
+
+  //   emailjs
+  //     .send(
+  //       'service_dadu49p',
+  //       'template_u11y0p8',
+  //       {
+  //         from_name: form.name,
+  //         to_name: "Tushar Mishra",
+  //         from_email: form.email,
+  //         to_email: "tusharmishra16@gmail.com",
+  //         message: form.message,
+  //       },
+  //       'FMMYVn6T7edJBuHeO'
+  //     )
+  //     .then(
+  //       () => {
+  //         setLoading(false);
+  //         alert("Thank you. I will get back to you as soon as possible.");
+
+  //         setForm({
+  //           name: "",
+  //           email: "",
+  //           message: "",
+  //         });
+  //       },
+  //       (error) => {
+  //         setLoading(false);
+  //         console.error(error);
+
+  //         alert("Ahh, something went wrong. Please try again.");
+  //       }
+  //     );
+  // };
+
   const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
+  e.preventDefault();
 
-    emailjs
-      .send(
-        'service_dadu49p',
-        'template_u11y0p8',
-        {
-          from_name: form.name,
-          to_name: "Tushar Mishra",
-          from_email: form.email,
-          to_email: "tusharmishra16@gmail.com",
-          message: form.message,
-        },
-        'FMMYVn6T7edJBuHeO'
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+  const subject = `Message from ${form.name}`;
+  const body = `Name: ${form.name} \n Email: ${form.email} \n Message:${form.message}`;
 
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
+  const mailtoLink = `mailto:tusharmishra16@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+  window.location.href = mailtoLink;
+
+  
+  setForm({
+    name: "",
+    email: "",
+    message: "",
+  });
   };
 
   return (
