@@ -28,7 +28,7 @@ const Hero = () => {
           </h1>
          
            <span className={`text-opacity-30 font-black md:text-[30px] sm:text-[50px] xs:text-[40px] text-[15px] mt-2 text-[#a4a4a4] flex `}>
-           Crafting digital experiences driven by futuristic innovation.
+           Building digital solutions that drive real world impact
 </span>     
     
         </div>

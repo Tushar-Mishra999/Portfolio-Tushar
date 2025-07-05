@@ -14,6 +14,10 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "agenda",
+    title: "Agenda",
+  },
+  {
     id: "work",
     title: "Work",
   },
@@ -29,7 +33,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  
+
 ];
 
 
