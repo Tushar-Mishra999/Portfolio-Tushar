@@ -26,7 +26,7 @@ const About = () => {
         </motion.p>
 
         <div className="mt-8 flex flex-wrap gap-4">
-          <motion.button
+          {/* <motion.button
             whileHover={{ backgroundColor: "#0054FF" }}
             className="px-4 py-2 rounded-lg bg-primary hover:text-white text-[#0054FF] font-semibold border border-[#0054FF]"
             onClick={() => {
@@ -35,7 +35,7 @@ const About = () => {
             }}
           >
             Resume
-          </motion.button>
+          </motion.button> */}
           <motion.button
             whileHover={{ backgroundColor: "#0054FF" }}
             className="px-4 py-2 rounded-lg bg-primary hover:text-white text-[#0054FF] font-semibold border border-[#0054FF]"

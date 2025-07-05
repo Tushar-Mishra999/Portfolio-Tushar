@@ -5,6 +5,7 @@ import {
   redcarpet,
   mindler,
   airia,
+  iimranchi,
 } from "../assets";
 
 export const navLinks = [
@@ -41,11 +42,11 @@ const experiences = [
     company_name: "Airia",
     icon: airia,
     iconBg: "#ffffff",
-    date: "Oct 2024 - Present",
+    date: "Oct 2024 - May 2025",
     points: [
-    "Developing and maintaing both the frontend and backend of the DrCode tech product, which leverages AI to analyze pull requests, provide in-depth code reviews, and generate intelligent suggestions for commit improvements, aiming to streamline code quality and development workflows for developers.",
-    "Working on external projects for Universe startup, including project management, task allocation, and guiding fellow engineers on development practices.",
-    "Handling social media strategy and managing brand presence to drive visibility and engagement."
+      "Worked on external client projects, including full stack development for Univerze and backend development for an AI chatbot for Student Tribe.",
+      "Contributed to the frontend development of DrCode, Airia’s flagship product.",
+      "Managed and marketed Airia’s LinkedIn account to enhance brand visibility."
     ],
   },
   {
@@ -88,16 +89,26 @@ const experiences = [
 
 const education = [
   {
+  title: "Indian Institute of Management Ranchi",
+  company_name: "Ranchi, Jharkhand",
+  icon: iimranchi,
+  iconBg: "#ffffff",
+  date: "2025 - 2027",
+  points: [
+    "Master of Business Administration",
+    "Relevant Coursework: Business Statistics, Marketing Management, Micro Organizational Behaviour, Financial Accounting, Microeconomics, Managerial Communication",
+  ],
+  },
+  {
     title: "Shiv Nadar University",
     company_name: "Greater Noida, Uttar Pradesh",
     icon: snu,
     iconBg: "#ffffff",
-    date: "2024",
+    date: "2020 - 2024",
     points: [
       "Bachelor of Technology, Computer Science and Engineering.",
       "CGPA: 8.58",
       "Relevant Coursework: Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Cloud Computing, Information Retrieval, Economics",
-
     ],
   },
   {
@@ -105,7 +116,7 @@ const education = [
     company_name: "Noida, Uttar Pradesh",
     icon: apeejay,
     iconBg: "#ffffff",
-    date: "Apr 2008 - March 2020",
+    date: "2008 - 2020",
     points: [
       //12th CBSE BOARDS-95.2%, 10th CBSE BOARDS-96% 
       "Completed 12th grade with 95.4% in the CBSE Board Examinations.",

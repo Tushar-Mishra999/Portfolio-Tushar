@@ -8,6 +8,7 @@ import irdeto from "./experience/irdeto.png";
 import redcarpet from "./experience/redcarpet.svg";
 import mindler from "./experience/mindler.png";
 import airia from "./experience/airia.png";
+import iimranchi from "./experience/iimranchi.webp";
 export {
   logo,
   github,
@@ -19,4 +20,5 @@ export {
   redcarpet,
   mindler,
   airia,
+  iimranchi
 };
